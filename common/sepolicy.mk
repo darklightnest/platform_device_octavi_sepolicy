@@ -1,6 +1,6 @@
 #
 # This policy configuration will be used by all products that
-# inherit from Lineage
+# inherit from Octavi
 #
 
 ifeq ($(TARGET_COPY_OUT_VENDOR), vendor)
@@ -10,16 +10,16 @@ endif
 endif
 
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    device/lineage/sepolicy/common/public
+    device/octavi/sepolicy/common/public
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/lineage/sepolicy/common/private
+    device/octavi/sepolicy/common/private
 
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/lineage/sepolicy/common/dynamic
+    device/octavi/sepolicy/common/dynamic
 else
 BOARD_SEPOLICY_DIRS += \
-    device/lineage/sepolicy/common/dynamic \
-    device/lineage/sepolicy/common/vendor
+    device/octavi/sepolicy/common/dynamic \
+    device/octavi/sepolicy/common/vendor
 endif
