@@ -2,3 +2,5 @@ adb.network.port              u:object_r:system_prop:s0
 octavi.service.adb.root        u:object_r:system_prop:s0
 octavi.userinit.active         u:object_r:userinit_prop:s0
 recovery.perf.mode            u:object_r:octavi_recovery_prop:s0
+ro.build.selinux              u:object_r:exported2_default_prop:s0
+
