@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-type flipendo, domain;
+type flipendo, domain, coredomain;
 app_domain(flipendo)
 
 # HwBinder IPC from client to flipendo
