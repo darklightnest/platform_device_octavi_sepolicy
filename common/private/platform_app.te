@@ -16,3 +16,6 @@ hal_client_domain(platform_app, hal_lineage_powershare)
 # Allow theme_prop to be read and set by SystemUI
 get_prop(platform_app, theme_prop)
 set_prop(platform_app, theme_prop)
+
+# Allow boottime_prop to be read and set by SystemUI
+get_prop(platform_app, boottime_prop)
